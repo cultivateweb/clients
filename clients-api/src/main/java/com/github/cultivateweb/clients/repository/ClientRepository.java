@@ -1,13 +1,10 @@
 package com.github.cultivateweb.clients.repository;
 
 import com.github.cultivateweb.clients.Client;
-//import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 
-import java.util.List;
-
-//@RepositoryRestResource
-public interface ClientRepository /*extends JpaRepository<Client, Long> */{
-
-    List<Client> findByLastNameStartsWithIgnoreCase(String lastName);
+@RepositoryRestResource
+public interface ClientRepository extends CrudRepository<Client, Long> {
 
 }
