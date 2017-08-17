@@ -6,5 +6,14 @@ import org.springframework.web.bind.annotation.*;
 public class LoginController {
 
 
+    @RequestMapping( "/login")
+    public void login() {
+
+    }
+
+    @RequestMapping("/logout")
+    public void logout() {
+
+    }
 
 }

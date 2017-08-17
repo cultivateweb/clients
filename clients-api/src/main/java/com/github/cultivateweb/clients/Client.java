@@ -1,7 +1,14 @@
-package com.github.cultivateweb.clients.controllers;
+package com.github.cultivateweb.clients;
 
+//import javax.persistence.Entity;
+//import javax.persistence.GeneratedValue;
+//import javax.persistence.Id;
+
+//@Entity
 public class Client {
 
+//    @Id
+//    @GeneratedValue
 	private int id;
 	private String fio;
 	private String email;

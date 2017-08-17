@@ -1,5 +1,6 @@
 package com.github.cultivateweb.clients.controllers;
 
+import com.github.cultivateweb.clients.Client;
 import com.github.cultivateweb.clients.services.ClientsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

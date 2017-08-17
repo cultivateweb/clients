@@ -1,6 +1,6 @@
 package com.github.cultivateweb.clients.services;
 
-import com.github.cultivateweb.clients.controllers.Client;
+import com.github.cultivateweb.clients.Client;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
