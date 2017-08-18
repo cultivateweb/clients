@@ -16,10 +16,10 @@ public class Client {
 	private String phone;
 
     public Client() {
+
     }
 
-    public Client(int id, String fio, String email, String phone) {
-        this.id = id;
+    public Client(String fio, String email, String phone) {
         this.fio = fio;
         this.email = email;
         this.phone = phone;
@@ -55,6 +55,11 @@ public class Client {
 
     public void setPhone(String phone) {
         this.phone = phone;
+    }
+
+    @Override
+    public String toString() {
+        return String.format("Client[%s, %s, %s, %s]", id, fio, email, phone);
     }
 
 }
